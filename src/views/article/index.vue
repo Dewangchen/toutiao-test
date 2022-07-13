@@ -5,7 +5,7 @@
       class="page-nav-bar"
       left-arrow
       @click-left="$router.back()"
-      title="黑马头条"
+      title="头条新闻"
     ></van-nav-bar>
     <!-- /导航栏 -->
 
@@ -34,7 +34,7 @@
             fit="cover"
             :src="article.aut_photo"
           />
-          <div slot="title" class="user-name">{{article.aut_name}}</div>
+          <div slot="title" class="user-name">小陈dw</div>
           <div slot="label" class="publish-date">{{article.pubdate | relativeTime}}</div>
           <!-- 模板中的$event 是事件参数
                当传给子组件的数据既要使用还要修改。
